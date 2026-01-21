@@ -1,0 +1,14 @@
+path: ./
+
+sub_path:
+  data: data.csv
+  X_train: X_train.csv
+  X_test: X_test.csv
+  y_train: y_train.csv
+  y_test: y_test.csv
+
+enc_path: src/encoder.joblib  
+
+mdl_path: src/xgb_model.joblib
+
+shap_path: src/shap_explainer.joblib
